@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f9f1f1;
+    padding: 10px 20px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    z-index: 1000;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item a {
+    color: rgb(8, 7, 7);
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: color 0.3s;
+}
+
+.nav-item a:hover {
+    color: #ffcc00; /* Change color on hover */
+}
+
+.scrolled {
+    background-color: #222; /* Darker background on scroll */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    padding-top: 60px; /* To ensure content is below fixed navbar */
+    text-align: center;
+}
