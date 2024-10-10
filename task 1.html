@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Navigation Menu</title>
     <link rel="stylesheet" href="task 1.css">
+    <img class="image" src="https://cdn.shopify.com/s/files/1/0566/6586/6400/files/rug_coaster.jpg?v=1656861918">
+    <img class="image2" src="https://img.stablecog.com/insecure/1920w/aHR0cHM6Ly9iLnN0YWJsZWNvZy5jb20vM2I2OWJmZWMtZWU2MS00YjBmLThhMjMtZDRkMzRhMDhhZWViLmpwZWc.webp">
+    <img class="image3" src="https://www.marthastewart.com/thmb/y77-6sP4FJN_HBycB25u15_42eE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/leaf-leis-1118-20fc99ab-e1581001827451-865b21adb4e745669ca01d7e67ba05ca.jpg">
 </head>
 <body>
 
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Main Navigation">
         <ul class="nav-list">
             <li class="nav-item"><a href="#home">Home</a></li>
             <li class="nav-item"><a href="#about">About</a></li>
@@ -18,11 +21,25 @@
     </nav>
 
     <div class="content">
-        <h1>Welcome to Our Website</h1>
-        <p>Scroll down to see the effect.</p>
-        <div style="height: 1500px;"></div> <!-- Just to create scrollable content -->
+        <section id="home">
+            <h1>Welcome to Our Website</h1>
+            <p>scroll down to see the effect</p>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>An official crafting website,where you can find plenty of crafting items and you will definately fall for this.</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>Details about our services go here.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Information on how to contact us.</p>
+        </section>
+        <div style="height: 1500px;"></div>
     </div>
 
-    <script src="task 1.js"></script>
+    <script src="task 1.js" defer></script>
 </body>
 </html>
